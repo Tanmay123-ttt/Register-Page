@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Modak&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img {
+    height: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.img body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* #3ed8ff, #a8f5ff */
+
+.outer-box {
+    width: 120vw;
+    height: 120vh;
+    background: linear-gradient(to top left, #3ed8ff, #a8f5ff);
+}
+
+.inner-box {
+    width: 420px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background-color: #ffffff09;
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #2773a5;
+    z-index: 2;
+}
+
+.register-header h1 {
+    font-size: 2.0rem;
+    color: #212121;
+    display: flex;
+    justify-content: center;
+}
+
+
+.register-header p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+
+.register-body {
+    margin: 20px 0;
+}
+
+.register-body p {
+    margin: 10px 0;
+}
+
+.register-body p label {
+    display: block;
+    font-weight: bold;
+}
+
+.register-body p input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+
+.register-body p select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+
+#submit {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#submit:hover {
+    color: rgb(6, 6, 6);
+}
+
+.register-footer p {
+    color: #555;
+    text-align: center;
+}
+
+.register-footer p a {
+    color: #2773a5;
+}
+
+.register-footer p a:hover {
+    color: #013b61;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background: linear-gradient(to top right, #ffffff33, #ffffffff);
+    position: absolute;
+}
+
+.c1 {
+    top: 100px;
+    left: 100px;
+}
+
+.c2 {
+    bottom: -110px;
+    right: -110px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
